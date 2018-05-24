@@ -1,0 +1,22 @@
+<!--pages/my/my.wxml-->
+<text></text>
+<view class='container'>
+  <view class="header">
+    <image src="../../image/ava.png" class="item-image"></image>
+  </view>
+  <view class="list-menu">
+    <image src="../../image/follow.png" class="icon-left"></image>我的关注
+  </view>
+  <view class="list-menu">
+    <image src="../../image/start.png" class="icon-left"></image>我的收藏
+  </view>
+  <view class="list-menu">
+    <image src="../../image/contribute.png" class="icon-left"></image>投稿
+  </view>
+  <view class="list-menu">
+    <image src="../../image/about.png" class="icon-left"></image>关于我们
+  </view>
+  <view class="list-menu">
+    <image src="../../image/contact.png" class="icon-left"></image>联系我们
+  </view>
+</view>

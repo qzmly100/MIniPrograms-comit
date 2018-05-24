@@ -1,0 +1,5 @@
+<!--pages/comic/comic/image.wxml-->
+<block wx:for="{{imgData}}">
+  <image src="{{item.url}}" mode="widthFix"></image>
+</block>
+

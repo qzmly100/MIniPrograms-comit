@@ -1,0 +1,25 @@
+<view class='body'>
+  <view class="row">
+  <navigator url="../comic/comic/detail">
+      <view class="img-title">
+        <image src="http://mooc-10050339.file.myqcloud.com/feedback/201805/23/1527054769679.png" class="index-col-3"></image>
+        <text>少年</text>
+        <text>附魔之子</text>
+      </view>
+    </navigator>
+  <navigator url="../comic/comic/detail">
+      <view class="img-title">
+        <image src="http://mooc-10050339.file.myqcloud.com/feedback/201805/23/1527054769679.png" class="index-col-3"></image>
+        <text>少年</text>
+        <text>附魔之子</text>
+      </view>
+    </navigator>
+  <navigator url="../comic/comic/detail">
+      <view class="img-title">
+        <image src="http://mooc-10050339.file.myqcloud.com/feedback/201805/23/1527054769679.png" class="index-col-3"></image>
+        <text>少年</text>
+        <text>附魔之子</text>
+      </view>
+    </navigator>
+  </view>
+</view>

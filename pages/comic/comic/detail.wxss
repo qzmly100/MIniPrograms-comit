@@ -1,0 +1,83 @@
+/* pages/comic/comic/detail.wxss */
+
+image {
+  width: 100%;
+}
+
+.row {
+  margin: 0 30rpx;
+}
+
+.title {
+  font-size: 50rpx;
+  display: block;
+}
+
+.red {
+  font-size: 24rpx;
+  color: #ff0300;
+}
+
+.right-label {
+  float: right;
+}
+
+.label-icon {
+  background: #f0fcfc;
+  font-size: 24rpx;
+  color: #91c1cf;
+  padding: 5rpx 12rpx;
+  border-radius: 20rpx;
+}
+
+.line {
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 20rpx;
+}
+
+.tabIndex {
+  color: #9d9d9d;
+  font-size: 27rpx;
+  margin-top: 20rpx;
+  display: flex;
+}
+
+.tab {
+  display: flex;
+  flex: 2;
+  justify-content:center;
+}
+.active{
+  color:#474747;
+}
+.content{
+  font-size:28rpx;
+  margin:20rpx 5rpx;
+}
+.update{
+  font-size:20rpx;
+  color:#878787;
+}
+.sort{
+  font-size:22rpx;
+  color:#383838;
+  float:right;
+}
+.box-sort{
+  margin-top:20rpx;
+}
+.sort-label{
+  border:1px solid #C5C5C5;
+  height:38rpx;
+  width:90rpx;
+  line-height:38rpx;
+  margin-right:20rpx;
+  padding:5rpx 20rpx;
+  color:#535252;
+  clear: both;
+  margin-bottom:20rpx;
+  display: inline-block;
+}
+navigator{
+  display:inline-block;
+}

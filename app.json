@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/comic/comic/detail",
+    "pages/comic/comic/image",
+    "pages/comic/comic",
+    "pages/my/my",
+    "pages/welcome/welcome"
+  ],
+  "window":{
+    "backgroundTextStyle":"#ddd",
+    "navigationBarBackgroundColor": "#fde23d",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#711212",
+    "borderStyle": "black",
+    "backgroundColor": "#fde23d",
+    "list": [
+        {
+          "pagePath": "pages/index/index",
+          "iconPath": "image/index.png",
+          "selectedIconPath": "image/index_active.png",
+          "text": "首页"
+        },
+      {
+        "pagePath": "pages/comic/comic",
+        "iconPath": "image/comic.png",
+        "selectedIconPath": "image/comic_active.png",
+        "text": "漫画"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "image/my.png",
+        "selectedIconPath": "image/my_active.png",
+        "text": "关于"
+      }
+    ]
+  }
+}

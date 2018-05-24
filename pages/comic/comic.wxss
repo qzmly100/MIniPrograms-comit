@@ -1,0 +1,55 @@
+/* pages/index/index.wxss */
+
+
+.section {
+  margin: 20rpx 30rpx;
+}
+
+.bg-gray {
+  background: #f3f4f6;
+  font-size: 24rpx;
+  border-radius: 30rpx;
+  height: 60rpx;
+  width: 700rpx-20rpx;
+  padding-left:20rpx;
+}
+
+.row{
+  margin:30rpx;
+}
+.font-20{
+  font-size:30rpx;
+  display:block;
+  margin-bottom: 20rpx;
+}
+.index-col-3{
+  width:215rpx;
+  height:311rpx;
+}
+.index-col-3:last-child {
+  margin-right: 0;
+}
+
+.img-title{
+  float:left;
+  font-size: 20rpx;
+  height:438rpx;
+  width:215rpx;
+  margin-right:20rpx;
+}
+.img-title text{
+  display: block;
+  font-size:24rpx;
+}
+.img-title:last-child {
+  margin-right: 0;
+}
+navigator {
+  margin:0;
+  padding:0;
+  display: inline-block;
+   margin-right:20rpx;
+}
+navigator:last-child{
+  margin-right: 0;
+}

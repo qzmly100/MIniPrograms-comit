@@ -1,0 +1,27 @@
+<view class='body'>
+  <swiper indicator-dots="{{indicatorDots}}" indicator-color="#feffff" indicator-active-color="#fde03a"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" mode="widthFix"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="section">
+      <input placeholder="搜素作品"  class="bg-gray"/>
+  </view>
+  <view class="row">
+    <text class="font-20">最新</text>
+      <navigator url="../../pages/comic/comic/detail" hover-class="navigator-hover">
+        <image src="http://mooc-10050339.file.myqcloud.com/feedback/201805/23/1527054769679.png" class="index-col-3"></image>
+      </navigator>
+      <image src="http://mooc-10050339.file.myqcloud.com/feedback/201805/23/1527054769679.png" class="index-col-3"></image>
+      <image src="http://mooc-10050339.file.myqcloud.com/feedback/201805/23/1527054769685.png" class="index-col-3"></image>
+  </view>
+    <view class="row">
+    <text class="font-20">更新</text>
+      <image src="http://mooc-10050339.file.myqcloud.com/feedback/201805/23/1527054769685.png" class="index-col-3"></image>
+      <image src="http://mooc-10050339.file.myqcloud.com/feedback/201805/23/1527054769689.png" class="index-col-3"></image>
+      <image src="http://mooc-10050339.file.myqcloud.com/feedback/201805/23/1527054769689.png" class="index-col-3"></image>
+  </view>
+</view>

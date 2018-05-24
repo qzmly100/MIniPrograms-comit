@@ -1,0 +1,4 @@
+/* pages/comic/comic/image.wxss */
+image{
+  width:100%;
+}

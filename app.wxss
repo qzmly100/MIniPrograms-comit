@@ -1,0 +1,5 @@
+text{
+    font-family: MicroSoft Yahei;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.navigator-hover{background-color: rgba(0, 0, 0, 0); opacity: 0.7;}

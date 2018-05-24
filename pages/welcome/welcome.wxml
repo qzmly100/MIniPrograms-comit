@@ -1,0 +1,8 @@
+<!--pages/welcome/welcome.wxml-->
+<view class="container">
+  <image class="wp-image" src="http://mooc-10050339.cos.myqcloud.com/image/201804/1523583686494.png"></image>
+  <text class="user-name"> hello,五月</text>
+  <view>
+      <text class="moto"> 开启小程序之旅</text>
+   </view>
+</view>

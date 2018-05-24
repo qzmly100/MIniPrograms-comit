@@ -1,0 +1,31 @@
+<!--pages/comic/comic/detail.wxml-->
+<image class="" src="http://mooc-10050339.file.myqcloud.com/image/201805/1526956893548.png"></image>
+<view class="row">
+  <view class='line'>
+    <text class="title">附魔之子</text>
+    <text class="red">人气314亿</text>
+    <view class="right-label">
+      <text class="label-icon">少年</text>
+      <text class="label-icon">搞笑</text>
+      <text class="label-icon">魔幻</text>
+      <text class="label-icon">生活</text>
+    </view>
+  </view>
+  <view class="tabIndex">
+    <block wx:for="{{navItem}}" wx:key="index">
+      <text class="tab {{showItem==index ? 'active':''}}" bindtap='navtag' data-id="{{index}}">{{item.name}}</text>
+    </block>
+  </view>
+  <view wx:if="{{showItem==0}}" class="content">
+    白城是新罗一个备受争议的城邦，人们不理解它的无私慷慨，更不理解它输送出的黑暗。主角施恩一次出行获得白衣人的救助，他感恩崇拜却不知已卷入白城的危机。一连串阴谋接踵而来，然而施恩不得不面对突如其来的变故，突破敌营重新与伙伴们会合，正当他垂死挣扎时惊人的一幕发生，他能成功逃脱吗？答案是未知的。
+  </view>
+  <view wx:if="{{showItem==1}}" class='content'>
+    <text class="update">最后一章更新于2018-05-17</text>
+    <text class='sort' bindtap='sortTrans' data-id="{{sortIndex}}">{{sorttext[sortIndex]}}</text>
+    <view class="box-sort">
+      <navigator url="../../comic/comic/image" hover-class="navigator-hover" wx:for="{{sortData}}">
+          <text class="sort-label">{{item.name}}</text>
+       </navigator>
+    </view>
+  </view>
+</view>
